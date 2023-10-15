@@ -7,10 +7,11 @@ body{padding: 0;
 }
 
 body h1 {
-    font-size: 50px;
+    font-size: 60px;
     color: white;
     text-align: center;
     margin: 0;
+    font-family: 'Henny Penny', cursive;
 
 }
 
@@ -19,6 +20,7 @@ body h2 {
     color: white;
     text-align: left;
     padding-left: 50px;
+    font-family: 'Jolly Lodger', cursive;
 }
 
 /* HEADER */
@@ -48,7 +50,8 @@ header ul{
 header ul li {
     padding: 20px;
     list-style: none;
-    font-size: 20px;
+    font-size: 35px;
+    font-family: 'Jolly Lodger', cursive;
 
 }
 header ul li a{
@@ -79,6 +82,7 @@ main .cajagrande3{
     color: white;
     padding-left: 20px;
     text-align: justify;
+    font-family: 'Itim', cursive;
 
 }
 
@@ -95,6 +99,13 @@ main .cajagrande3{
 
 .tarjeta-texto-justificado {
     text-align: justify;
+    font-family: 'Itim', cursive;
+
+}
+
+.card h5{
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 40px;
 }
 
 
@@ -115,6 +126,8 @@ main .cajagrande3{
     font-size: 120px;
     color: white;
     text-align: center;
+    font-family: 'Henny Penny', cursive;
+    
 
 
 }
@@ -130,7 +143,9 @@ main .cajagrande3{
     justify-content: center; 
     padding-left: 50px;
     text-align: justify;
-    justify-content: center
+    justify-content: center;
+    font-family: 'Itim', cursive;
+    
     
 }
 
