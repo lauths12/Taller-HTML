@@ -1,0 +1,225 @@
+/* BODY */
+
+body{padding: 0;
+    margin: 0;
+    background-color: black;
+
+}
+
+body h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 0;
+
+}
+
+body h2 {
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+}
+
+/* HEADER */
+
+header{
+    background-image: url("Images/gif1.gif");
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    height: 750px;
+    width: 100%;
+}
+
+header img{
+    width: 200px;
+}
+
+header ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+}
+
+header ul li {
+    padding: 20px;
+    list-style: none;
+    font-size: 20px;
+
+}
+header ul li a{
+    color: inherit;
+    text-decoration: none;
+
+}
+
+/* MAIN */
+	
+main .cajagrande2{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+main .cajagrande3{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* SINAPSIS */
+
+.sinapsis-div p {
+    font-size: 21px; 
+    color: white;
+    padding-left: 20px;
+    text-align: justify;
+
+}
+
+
+/* PERSONAJES */
+
+.card {
+    height: 100%;
+}
+
+.tarjeta-separada {
+    margin-top: 20px; /* Ajusta el valor según la separación deseada */
+}
+
+.tarjeta-texto-justificado {
+    text-align: justify;
+}
+
+
+/* TEORIAS */
+
+.teoriasConspirativas {
+    background-image: url("Images/teorias.gif");
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    display: flex; /* Agregamos flexbox */
+    justify-content: center;
+    align-items: center;
+}
+
+
+.teoriasConspirativas h3{
+    font-size: 120px;
+    color: white;
+    text-align: center;
+
+
+}
+
+.teoria-div {
+    float: right; 
+    flex: 1; /* Toma todo el espacio disponible en la misma línea */
+}
+
+.teoria-div p{    
+    color: white;
+    font-size: 16px;
+    justify-content: center; 
+    padding-left: 50px;
+    text-align: justify;
+    justify-content: center
+    
+}
+
+.carousel-inner {
+    width: 100%; /* Asegura que las imágenes del carrusel ocupen el 100% del ancho */
+}
+
+.carousel-inner img {
+    max-height: 400px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+/* Establece el margen para separar el carrusel de la información */
+.carousel {
+    max-width: 50%; /* Limita el ancho del carrusel */
+    justify-content: center;
+    align-items: center;
+        
+}
+
+#myCarousel {
+    max-width: 300px; 
+}
+#myCarousel2 {
+    max-width: 300px; 
+}
+#myCarousel3 {
+    max-width: 300px; 
+}
+
+.container {
+    display: flex;
+    padding: 0;
+
+}
+
+
+
+/* FORMULARIO */
+
+.formulario-container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    color : white;
+    
+  }
+
+label {
+    display: block;
+    margin-top: 10px;
+  }
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+.formulariocontenedor{
+    background-image: url("Images/acerca.jpeg");
+    background-size: cover;
+    width: 100%;
+
+}
+
+.note {
+    font-style: italic;
+}
+
+
+/* FOOTER */
+
+.footer{
+    background-color: #222538;
+}
+
+
+
+
+
