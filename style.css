@@ -78,17 +78,14 @@
 
 
 #myCarousel {
-    max-width: 100%;
     display: block;
     margin: 0 auto;
 }
 #myCarousel2 {
-    max-width: 100%;
     display: block;
     margin: 0 auto;
 }
-#myCarousel3 {
-    max-width: 100%; 
+#myCarousel3 { 
     display: block;
     margin: 0 auto;
 }
