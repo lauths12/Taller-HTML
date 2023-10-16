@@ -38,6 +38,8 @@
 
 #sinopsis img {
     width: 320px;
+    display: block;
+    margin: 0 auto;
 
 }
 
@@ -58,6 +60,29 @@
     color: white;
     text-align: center;
     font-family: 'Henny Penny', cursive;
+}
+
+#teoriascaja img {
+    max-height: 400px;
+}
+
+
+
+
+#myCarousel {
+    max-width: 300px; 
+}
+#myCarousel2 {
+    max-width: 300px; 
+}
+#myCarousel3 {
+    max-width: 300px; 
+}
+
+.container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+
 }
 
 /*PERSONAJES*/
@@ -118,41 +143,9 @@ body h2 {
 
 }
 
-.carousel-inner {
-    width: 100%; /* Asegura que las imágenes del carrusel ocupen el 100% del ancho */
-}
 
-.carousel-inner img {
-    max-height: 400px;
-    display: block;
-    margin: 0 auto;
-    
-}
 
-/* Establece el margen para separar el carrusel de la información */
-.carousel {
-    max-width: 50%; /* Limita el ancho del carrusel */
-    justify-content: center;
-    align-items: center;
-        
-}
 
-#myCarousel {
-    max-width: 300px; 
-}
-#myCarousel2 {
-    max-width: 300px; 
-}
-#myCarousel3 {
-    max-width: 300px; 
-}
-
-.container-fluid {
-    display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
-
-}
 
 /* FORMULARIO */
 
