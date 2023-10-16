@@ -34,8 +34,7 @@
 
 #sinopsis img {
     width: 320px;
-    text-align: justify;
-    
+
 }
 
 #teorias{
@@ -54,6 +53,9 @@
     font-family: 'Henny Penny', cursive;
 }
 
+#personajes{
+    padding: 0px 200px;
+}
 
 body{padding: 0;
     margin: 0;
@@ -137,7 +139,7 @@ main .cajagrande3{
 }
 
 .tarjeta-separada {
-    margin-top: 20px; /* Ajusta el valor según la separación deseada */
+    margin-top: 60px; /* Ajusta el valor según la separación deseada */
 }
 
 .tarjeta-texto-justificado {
