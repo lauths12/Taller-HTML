@@ -197,8 +197,10 @@ main .cajagrande3{
 
 }
 
+.container{
+    display: flex;
 
-
+}
 /* FORMULARIO */
 
 .formulario-container {
