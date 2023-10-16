@@ -1,5 +1,17 @@
 /* BODY */
 
+.custom-navbar {
+    background-color: #0e0e0e;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    z-index: 100;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Jolly Lodger', cursive;
+
+}
+
 body{padding: 0;
     margin: 0;
     background-color: black;
@@ -180,7 +192,8 @@ main .cajagrande3{
 
 .container-fluid {
     display: flex;
-    padding: 0;
+    padding-left: 80px;
+    padding-right: 80px;
 
 }
 
