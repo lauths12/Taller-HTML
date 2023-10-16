@@ -53,8 +53,15 @@
     font-family: 'Henny Penny', cursive;
 }
 
-#personajes{
-    padding: 0px 200px;
+
+#personajes .card{
+    background-color: #1B1B1B;
+    margin: 10px auto;
+    max-width: fit-content;
+    height: 100%;
+    text-align: justify;
+    font-family: 'Itim', cursive;
+    
 }
 
 body{padding: 0;
@@ -82,73 +89,18 @@ body h2 {
 
 /* HEADER */
 
-header{
-    background-image: url("Images/gif1.gif");
-    background-size: cover;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: top;
-    height: 750px;
-    width: 100%;
-}
-
-header img{
-    width: 200px;
-}
-
-header ul{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    color: white;
-}
-
-header ul li {
-    padding: 20px;
-    list-style: none;
-    font-size: 35px;
-    font-family: 'Jolly Lodger', cursive;
-
-}
-header ul li a{
-    color: inherit;
-    text-decoration: none;
-
-}
-
-/* MAIN */
-	
-main .cajagrande2{
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-main .cajagrande3{
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
 
 
 /* PERSONAJES */
 
-.card {
-    height: 100%;
-}
 
 .tarjeta-separada {
     margin-top: 60px; /* Ajusta el valor según la separación deseada */
 }
 
-.tarjeta-texto-justificado {
-    text-align: justify;
-    font-family: 'Itim', cursive;
 
-}
 
-.card h5{
+#personajes h5{
     font-family: 'Jolly Lodger', cursive;
     font-size: 40px;
 }
