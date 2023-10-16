@@ -178,7 +178,7 @@ main .cajagrande3{
     max-width: 300px; 
 }
 
-.container {
+.container-fluid {
     display: flex;
     padding: 0;
 
