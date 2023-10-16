@@ -12,6 +12,49 @@
 
 }
 
+#inicio {
+    background-image: url("Images/gif1.gif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#sinopsis {
+    color: #ffffff;
+    padding: 5%;
+}
+
+#sinopsis p {
+    font-size: 22px;
+    text-align: justify;
+    font-family: 'Itim', cursive;
+    
+    
+}
+
+#sinopsis img {
+    width: 320px;
+    text-align: justify;
+    
+}
+
+#teorias{
+    background-image: url("Images/teorias.gif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#teorias h3{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    font-family: 'Henny Penny', cursive;
+}
+
+
 body{padding: 0;
     margin: 0;
     background-color: black;
@@ -87,18 +130,6 @@ main .cajagrande3{
 }
 
 
-/* SINAPSIS */
-
-.sinapsis-div p {
-    font-size: 21px; 
-    color: white;
-    padding-left: 20px;
-    text-align: justify;
-    font-family: 'Itim', cursive;
-
-}
-
-
 /* PERSONAJES */
 
 .card {
@@ -123,26 +154,8 @@ main .cajagrande3{
 
 /* TEORIAS */
 
-.teoriasConspirativas {
-    background-image: url("Images/teorias.gif");
-    background-size: cover;
-    height: 750px;
-    width: 100%;
-    display: flex; /* Agregamos flexbox */
-    justify-content: center;
-    align-items: center;
-}
 
 
-.teoriasConspirativas h3{
-    font-size: 120px;
-    color: white;
-    text-align: center;
-    font-family: 'Henny Penny', cursive;
-    
-
-
-}
 
 .teoria-div {
     float: right; 
