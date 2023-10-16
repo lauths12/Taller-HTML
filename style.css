@@ -1,4 +1,4 @@
-/* BODY */
+/* BARRA DE NAVEGACIÓN*/
 
 .custom-navbar {
     background-color: #0e0e0e;
@@ -12,12 +12,16 @@
 
 }
 
+/*GIF INICIO*/
+
 #inicio {
     background-image: url("Images/gif1.gif");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100vh;
 }
+
+/*SINOPSIS*/
 
 #sinopsis {
     padding: 5%;
@@ -37,6 +41,9 @@
 
 }
 
+
+/*TEORIAS*/
+
 #teorias{
     background-image: url("Images/teorias.gif");
     background-size: 100% 100%;
@@ -53,6 +60,7 @@
     font-family: 'Henny Penny', cursive;
 }
 
+/*PERSONAJES*/
 
 #personajes .card{
     background-color: #1B1B1B;
@@ -63,6 +71,18 @@
     font-family: 'Itim', cursive;
     
 }
+
+#personajes h5{
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 40px;
+}
+
+.tarjeta-separada {
+    margin-top: 60px; /* Ajusta el valor según la separación deseada */
+}
+
+
+/*BODY*/
 
 body{padding: 0;
     margin: 0;
@@ -87,23 +107,8 @@ body h2 {
     font-family: 'Jolly Lodger', cursive;
 }
 
-/* HEADER */
 
-
-
-/* PERSONAJES */
-
-
-.tarjeta-separada {
-    margin-top: 60px; /* Ajusta el valor según la separación deseada */
-}
-
-
-
-#personajes h5{
-    font-family: 'Jolly Lodger', cursive;
-    font-size: 40px;
-}
+/*TEORIAS*/
 
 #teoriascaja p{
     color: #ffffff;
@@ -111,26 +116,6 @@ body h2 {
     text-align: justify;
     font-family: 'Itim', cursive;
 
-}
-/* TEORIAS */
-
-
-
-.teoria-div {
-    float: right; 
-    flex: 1; /* Toma todo el espacio disponible en la misma línea */
-}
-
-.teoria-div p{    
-    color: white;
-    font-size: 16px;
-    justify-content: center; 
-    padding-left: 50px;
-    text-align: justify;
-    justify-content: center;
-    font-family: 'Itim', cursive;
-    
-    
 }
 
 .carousel-inner {
@@ -164,15 +149,11 @@ body h2 {
 
 .container-fluid {
     display: flex;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
 
 }
 
-.container{
-    display: flex;
-
-}
 /* FORMULARIO */
 
 .formulario-container {
@@ -213,7 +194,6 @@ input[type="submit"] {
 .note {
     font-style: italic;
 }
-
 
 /* FOOTER */
 
